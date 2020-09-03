@@ -2991,14 +2991,12 @@
 /* Video-box */
 .Rvideo-box 
 	{
-	background-color: #000000;
 	text-align: center;
 	padding: 0px;
 	margin: 0px auto 0px auto;
 	width: 100%;
 	max-width: 520px;
-	height: auto;
-	border: 1px solid #000000;
+	height: auto;;
 	}
 
 .Rvideo-box video 
