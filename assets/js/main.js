@@ -407,5 +407,3 @@
 	});
 
 })(jQuery);
-
-$('.modal').modal();
