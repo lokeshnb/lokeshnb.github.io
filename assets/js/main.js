@@ -407,3 +407,5 @@
 	});
 
 })(jQuery);
+
+$('.modal').modal();
