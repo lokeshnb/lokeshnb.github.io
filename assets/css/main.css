@@ -1381,6 +1381,75 @@
     background-color: rgba(255, 255, 255, 0.075)
 }
 
+
+.topicon {
+    border-radius: 100%;
+    box-shadow: inset 0 0 0 1px #fff;
+    display: inline-block;
+    height: 2.25rem;
+    line-height: 2.25rem;
+    text-align: center;
+	width: 2.25rem;
+	left: 20rem;
+}
+
+.topicon.custom {
+    box-shadow: inset 0 0 0 0 #fff;
+}
+
+.topicon:hover {
+    background-color: rgba(255, 255, 255, 0.075)
+}
+@media screen and (max-width: 736px) {
+
+	.topicon {
+		display:none;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.topicon {
+		display:none;
+	}
+
+}
+
+
+.topricon {
+    border-radius: 100%;
+    box-shadow: inset 0 0 0 1px #fff;
+    display: inline-block;
+    height: 2.25rem;
+    line-height: 2.25rem;
+    text-align: center;
+	width: 2.25rem;
+	left: 30rem;
+}
+@media screen and (max-width: 736px) {
+
+	.topricon {
+		display:none;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.topricon {
+		display:none;
+	}
+
+}
+.topricon.custom {
+    box-shadow: inset 0 0 0 0 #fff;
+}
+
+.topricon:hover {
+    background-color: rgba(255, 255, 255, 0.075)
+}
+
 /* Type */
 
 @font-face {
@@ -1911,6 +1980,43 @@
 		.icon > .label {
 			display: none;
 		}
+
+		/*Video Icon */
+
+	.vicon {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+		border-radius: 100%;
+    box-shadow: inset 0 0 0 1px #fff;
+    display: inline-block;
+    height: 2.25rem;
+    line-height: 2.25rem;
+    text-align: center;
+	width: 2.25rem;
+	bottom: 30px;
+	}
+
+	.vicon.custom {
+		box-shadow: inset 0 0 0 0 #fff;
+	}
+	
+	.vicon:hover {
+		background-color: rgba(255, 255, 255, 0.075)
+	}
+		.vicon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.vicon > .label {
+			display: none;
+		}
+
 
 /* Image */
 
@@ -2500,7 +2606,7 @@
 		@media screen and (max-width: 1680px) {
 
 			#wrapper {
-				padding: 3rem 2rem;
+				padding: 1rem 2rem;
 			}
 
 		}
@@ -2653,7 +2759,7 @@
 			}
 
 				#header .content .inner > :last-child {
-					margin-bottom: 0;
+					margin-bottom:0;
 				}
 
 			#header .content p {
@@ -3313,7 +3419,7 @@ header p {
 .contentnew{
 	position: absolute;;
 	left:50%;
-	top:70%;
+	top:60%;
 	-webkit-transform:translate(-50%,-50%);
 	transform:translate(-50%,-50%);
 	height:160px;
