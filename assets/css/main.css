@@ -25,25 +25,13 @@
 		height: 400px;
 	}
 
-	@media only screen and (min-width: 768px) {
+	@media screen and (min-width: 768px) {
 		iframe#pdfviewer  {
 		  display: none;
 		}
 	  }
 
-	@media screen and (max-width: 736px) {
-		iframe#pdfviewer {
-			height:400px;
 
-					}
-	
-		}
-	
-	@media screen and (max-width: 480px) {
-		iframe#pdfviewer {
-			height:400px;
-							}
-						}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
