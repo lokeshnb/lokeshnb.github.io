@@ -20,6 +20,20 @@
 		vertical-align: baseline;
 	}
 
+	@media screen and (max-width: 736px) {
+		.iframe.pdfviewer {
+			height:400px;
+
+					}
+	
+		}
+	
+	@media screen and (max-width: 480px) {
+		.iframe.pdfviewer {
+			height:400px;
+							}
+						}
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -3655,3 +3669,4 @@ header p {
 	  padding-left: 105pt; 
 	  padding-right: 50pt; 
 	}
+
