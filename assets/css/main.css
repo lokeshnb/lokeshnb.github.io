@@ -20,8 +20,13 @@
 		vertical-align: baseline;
 	}
 
+	iframe#pdfviewer{
+		width: 100%;
+		height: 800px;
+	}
+
 	@media screen and (max-width: 736px) {
-		.iframe.pdfviewer {
+		iframe#pdfviewer {
 			height:400px;
 
 					}
@@ -29,7 +34,7 @@
 		}
 	
 	@media screen and (max-width: 480px) {
-		.iframe.pdfviewer {
+		iframe#pdfviewer {
 			height:400px;
 							}
 						}
@@ -2547,8 +2552,7 @@
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-            /* @cliff this is where to change the opacity of the black overlay over the background */
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.45), rgba(19, 21, 25, 0.45)), url("../../images/overlay.png");
+            /* @lokesh this is where to change the opacity of the black overlay over the background */
 			background-size: auto, 256px 256px;
 			background-position: center, center;
 			background-repeat: no-repeat, repeat;
