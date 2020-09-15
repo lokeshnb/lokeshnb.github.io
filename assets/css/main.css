@@ -22,8 +22,14 @@
 
 	iframe#pdfviewer{
 		width: 100%;
-		height: 800px;
+		height: 400px;
 	}
+
+	@media only screen and (min-width: 768px) {
+		iframe#pdfviewer  {
+		  display: none;
+		}
+	  }
 
 	@media screen and (max-width: 736px) {
 		iframe#pdfviewer {
@@ -1582,7 +1588,21 @@
             .embed-pdf {
                 display: inherit !important
             }
-        }
+		}
+		
+		@media screen and (max-width: 736px) {
+			.embed-pdf  {
+				display:none;
+						}
+		
+			}
+		
+		@media screen and (max-width: 480px) {
+			.embed-pdf{
+									display:none;
+								}
+							}
+		
 
 	h1 {
 		font-size: 2.25rem;
