@@ -3567,7 +3567,7 @@ header p {
 	animation-name:change;
 	animation-duration:10s;
 	animation-iteration-count:infinite;
-	color: rgb(84, 162, 235);
+	color: darkcyan;
   }
   .contentnew__container__list__item{
 	line-height: 40px;
