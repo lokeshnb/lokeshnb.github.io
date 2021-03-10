@@ -2597,10 +2597,10 @@
 			-webkit-transition: background-color 2.5s ease-in-out;
 			-ms-transition: background-color 2.5s ease-in-out;
 			transition: background-color 2.5s ease-in-out;
-			-moz-transition-delay: 0.75s;
-			-webkit-transition-delay: 0.75s;
-			-ms-transition-delay: 0.75s;
-			transition-delay: 0.75s;
+			-moz-transition-delay: 0.60s;
+			-webkit-transition-delay: 0.60s;
+			-ms-transition-delay: 0.60s;
+			transition-delay: 0.60s;
             /* @lokesh this is where to change the opacity of the black overlay over the background */
 			background-size: auto, 256px 256px;
 			background-position: center, center;
